@@ -1,11 +1,15 @@
-node_modules/       # Dependencies
-.cache/             # Cache directories
-.DS_Store           # macOS Finder store files
-.env                # Environment variables (never commit these!)
-*.log               # Log files
-*.swp               # Swap files (from editors)
-tmp/                # Temporary files
-build/              # Build artifacts
-dist/               # Distribution files
-.vscode/            # VS Code settings (optional)
-.idea/              # IntelliJ IDEA settings (optional)
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Build directories
+/dist
+/build
+
+# Environment variables
+.env
+
+# Sensitive credentials (Google Cloud service account)
+**/tokyo-concept-417109-7e61e0b32938.json
